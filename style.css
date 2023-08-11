@@ -1,0 +1,26 @@
+body{
+    font-family: 'Borel', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+width: 100 vw;
+height: 100 vh;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+background-color:honeydew;
+}
+.image{
+    display:flex;
+    width: 300px;
+    height: 500px;
+    margin: 1% 1% 1% 1%;
+    background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
+    background-size:cover;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+
+
+
+}
