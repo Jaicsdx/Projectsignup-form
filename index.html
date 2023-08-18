@@ -1,83 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Fira+Sans:ital,wght@1,400;1,500&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,200;1,300&display=swap" rel="stylesheet">
-</head>
-<body>
-   <div class ="image">
- <div class="img-logo">
-    <img src="assets/odin-lined.png" alt="Odinlogo" class="odin-img"/>
- </div>
-    <div class="image-description">
-        <p class ="img-info">Photo by odin </p>
-        <a href ="https://unsplash.com/photos/25xggax4bSA">
-        <p class="image-info">https://unsplash.com/photos/25xggax4bSA</p>
-        </a></div></div>
-<div class="form">
-    <div class="form-info">
-    <h1>This is not a real online service ! You know you need 
-        something like this in your life to help you realize your deepest dreams. 
-        Signup <i>now</i> to get started.
-        You <i>know</i> you want to.
-    </h1>
-</div>
-
-         <form action="">
-            <h1>Let's do this!</h1>
-       
-<div class="inputs">
-<div class="first-name">
-                <input type="text" class="form-input" id="first-name" placeholder="#Last Name"/>
-                <label for="first-name" class="form-label">
-                    *First Name</label></div>
-            
-            <div class="last-name">
-                <input type="text" class="form-input" id="last-name" placeholder="#Last Name"/>
-                <label for="last-name" class="form-label">
-                    *last- Name</label></div></div>
-<div class="inputs">
- <div class="email">
-            <input type="text" class="form-input" id="email" placeholder="#email"/>
-            <label for="email" class="form-label">
-               email</label> </div>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Fira+Sans:ital,wght@1,400;1,500&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
     
-<div class="phone number">
-        <input type="text" class="form-input" id="phone number" placeholder="#phonenumber"/>
-        <label for="phone number" class="form-label">
-            phone number</label></div></div>
+  </head>
+  <body>
+    <div class="image">
+      <div class="img-logo">
+        <img src="assets/odin-lined.png" alt="Odinlogo" class="odin-img" />
+      </div>
+      <div class="image-description">
+        <p class="img-info">Photo by odin</p>
+        <a href="https://unsplash.com/photos/25xggax4bSA">
+          <p class="image-info">https://unsplash.com/photos/25xggax4bSA</p>
+        </a>
+      </div>
+    </div>
+    <div class="form">
+      <div class="form-info">
+        <h1>
+          This is not a real online service ! You know you need something like
+          this in your life to help you realize your deepest dreams. Signup
+          <i>now</i> to get started. You <i>know</i> you want to.
+        </h1>
+      </div>
 
+      <form action="">
+        <h1>Let's do this!</h1>
 
-<div class="inputs">
-<div class="password">
-    <input type="text" class="form-input" id="password" placeholder="password"/>
-    <label for="password" class="form-label">
-        password</label></div>
+        <div class="inputs">
+          <div class="first-name">
+            <input
+              required
+              type="text"
+              class="form-input"
+              id="first-name"
+              placeholder="First Name"
+            />
+            <label for="first-name" class="form-label"> *First Name</label>
+          </div>
 
-    
-        <div class="password">
-            <input type="text" class="form-input" id="password" placeholder="password"/>
-            <label for="password" class="form-label">
-                password</label> </div></div>
-               <div class="form-end">
-                <div class="errorMessage"></div>
-                <button class="btn" type ="submit">Create Account</button>
-                <h1>Already have an account? Log in</h1>
+          <div class="last-name">
+            <input
+              required
+              type="text"
+              class="form-input"
+              id="last-name"
+              placeholder="Last Name"
+            />
+            <label for="last-name" class="form-label"> *last- Name</label>
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="email">
+            <input
+              required
+              type="email"
+              class="form-input"
+              id="email"
+              placeholder="Email"
+            />
+            <label for="email" class="form-label"> email</label>
+          </div>
 
-              
-               </div>
+          <div class="phone">
+            <input
+              required
+              type="text"
+              class="form-input"
+              id="phone"
+              placeholder="Phone"
+            />
+            <label for="phone" class="form-label"> phone number</label>
+          </div>
+        </div>
 
+        <div class="inputs">
+          <div class="password">
+            <input
+              required
+              type="text"
+              class="form-input"
+              id="password"
+              placeholder="Password"
+            />
+            <label for="password" class="form-label"> password</label>
+          </div>
 
+          <div class="confirm-password">
+            <input
+              required
+              type="text"
+              class="form-input"
+              id="confirm-password"
+              placeholder="Confirm password"
+            />
+            <label for="confirm-password" class="form-label"> confirm-password</label>
+          </div>
+        </div>
 
-
-</form>
+        <div class="form-end">
+            <div class="errorMessage"></div>
+            <button class="btn" type="submit">Create Account</button>
+          <h1>Already have an account? <a href="" class="login">Log in</a></h1>
+        
 </div>
-</body>
+      </form>
+    </div>
+  </body>
+  <script src="main.js"></script>
 </html>
-
-     
