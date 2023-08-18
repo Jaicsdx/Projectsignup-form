@@ -3,19 +3,23 @@ body{
 font-family: 'Bricolage Grotesque', sans-serif;
 font-family: 'Fira Sans', sans-serif;
 font-family: 'Roboto Mono', monospace;
-width: 100 vw;
+width: 100 vh;
 height: 100 vh;
 overflow: hidden;
 display: flex;
 flex-direction: row;
-background-color:honeydew;
+
+background-image: url(assets/Screenshot\ 2023-08-18\ at\ 5.12.21\ PM.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: saturation;
 }
 .image{
     display:flex;
-    width: 900px;
-    height: 700px;
+    width: 39rem;
+    height: 50rem;
     margin: 1% 1% 1% 1%;
-    background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background: url(assets/Screenshot\ 2023-08-18\ at\ 5.11.33\ PM.png);
     background-size:cover;
     align-content: center;
     justify-content: center;
@@ -42,6 +46,7 @@ text-decoration: inherit;}
 .form> *{
     padding-left: 10%;
     padding-right: 10%;
+    
 
 }
 .form-label{
@@ -79,7 +84,8 @@ form{
     padding-top: 3%;
     width: 80%;
     margin-left: 0%;
-    background-color: rgba(0,0,0,0.034);
+    background-color: rgba(0, 0, 0, 0.3);
+  
 }
 .inputs{
     display:flex;
@@ -95,6 +101,7 @@ form{
     margin-top: 20px;
     position: absolute;
     font-size: 10px;
+
   }
   
   .btn {
