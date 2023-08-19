@@ -1,6 +1,9 @@
 # Projectsignup-form
 
 ![Getting Started](./assets/Screenshot%202023-08-18%20at%205.11.33%20PM.png)
+https://jaicsdx.github.io/Projectsignup-form/
+
+![Getting Started](./assets/Screenshot%202023-08-18%20at%208.55.30%20PM.png)
 
 # Signup Form Masterpiece 🌟
 
@@ -24,15 +27,13 @@ In today's multi-device landscape, responsiveness is paramount. "Signup Form Mas
 
 Gone are the days of cryptic error messages! This project employs intuitive client-side validation techniques that guide users through the signup process. Dynamic feedback helps users correct mistakes effortlessly, enhancing the overall form-filling experience.
 
-### 4. **Engaging Animations**
 
-Micro-interactions and subtle animations bring the form to life. From the smooth transition of input focus to the delightful confirmation animations, every interaction feels like a conversation, fostering a stronger connection between the user and the application.
 
-### 5. **User-Centric Flow**
+### 4. **User-Centric Flow**
 
 "Signup Form Masterpiece" doesn't just collect information; it guides users through a logical and engaging sequence. From capturing basic details to personalized preferences, the flow respects the user's time and provides an intuitive journey.
 
-### 6. **Effortless Accessibility**
+### 5. **Effortless Accessibility**
 
 Accessibility isn't an afterthought here; it's a core principle. The form is designed with accessibility best practices in mind, ensuring that users of all abilities can seamlessly navigate and interact with the form.
 
@@ -46,6 +47,5 @@ Remember, in the world of web development, the magic lies in the details, and "S
 
 _"Crafting connections, one input at a time."_ 🚀
 
----
 
-Feel free to modify and personalize this description to match your style and vision for your project!
+
