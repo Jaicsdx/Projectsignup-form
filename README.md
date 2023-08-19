@@ -1,7 +1,6 @@
 # Projectsignup-form
-Absolutely, here's a descriptive overview of your project, titled "Signup Form Masterpiece":
-![Alt Text](relative/path/to/image.png)
 
+![Getting Started](./assets/Screenshot%202023-08-18%20at%205.11.33%20PM.png)
 
 # Signup Form Masterpiece 🌟
 
