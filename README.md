@@ -41,8 +41,7 @@ Accessibility isn't an afterthought here; it's a core principle. The form is des
 
 Because your project is more than code; it's an expression of your dedication to creating exceptional digital experiences. By choosing to embark on the journey of crafting this signup form, you're not just building a form—you're building a connection, an emotion, and a memory for every user who engages with it.
 
-So, let your creativity flow, your code shine, and your "Signup Form Masterpiece" become a beacon of inspiration for fellow developers and a joyous experience for users.
-
+So, let your creativity flow, your code shine, and your "Signup Form Masterpiece" become a beacon of inspiration for fellow developers.
 Remember, in the world of web development, the magic lies in the details, and "Signup Form Masterpiece" is a testament to that magic.
 
 _"Crafting connections, one input at a time."_ 🚀
